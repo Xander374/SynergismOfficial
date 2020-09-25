@@ -42,7 +42,7 @@ function shopDescriptions(i) {
         case 6:
             rofl.textContent = obtainiumautodesc;
             lmao.textContent = "Cost: " + (shopBaseCosts.obtainiumAuto + 25 * player.shopUpgrades.obtainiumAutoLevel) + " Quarks."
-            lol.textContent = "CURRENT Effect: Try to upgrade research each reincarnation, and gain +" + format(player.shopUpgrades.obtainiumAutoLevel * 2, 2) + "% more Obtainium."
+            lol.textContent = "CURRENT Effect: Tries to buy selected research each reincarnation, and gain +" + format(player.shopUpgrades.obtainiumAutoLevel * 2, 2) + "% more Obtainium."
             break;
         case 7:
             rofl.textContent = instantchallengedesc;
@@ -52,7 +52,7 @@ function shopDescriptions(i) {
         case 8:
             rofl.textContent = cashgrabdesc;
             lmao.textContent = "Cost: " + (shopBaseCosts.cashGrab + 100 * player.shopUpgrades.cashGrabLevel) + " Quarks."
-            lol.textContent = "CURRENT Effect: All resources EXCEPT QUARKS increased by " + format(player.shopUpgrades.cashGrabLevel,2) + "%."
+            lol.textContent = "CURRENT Effect: All resource production EXCEPT QUARKS is increased by " + format(player.shopUpgrades.cashGrabLevel,2) + "%."
             break;
         case 9:
             rofl.textContent = antspeeddesc;
